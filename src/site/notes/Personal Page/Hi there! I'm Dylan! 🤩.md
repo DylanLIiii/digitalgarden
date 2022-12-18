@@ -8,7 +8,7 @@ Welcome to my personal page! I am currently a student studying data science and 
 
 Recently, I focus academically on [[Personal Page/Tabular Learning\|Tabular Learning]], [[Personal Page/Zero Shot Learning\|Zero Shot Learning]], [[Personal Page/Causal inference\|Causal inference]], [[Private Pages/Final Year Project\|Gravitational Wave Detection]], [[Personal Page/Biomedical intelligence\|Biomedical intelligence]] and general machine learning topics. 
 
-> [! quote]  Fields
+> [!QUOTE]  Fields
 > - [[Personal Page/Data Visualisation\|Data Visualisation]]
 > - [[Personal Page/Tabular Learning\|Tabular Learning]]
 > - [[Personal Page/Financial Machine Learning\|Financial Machine Learning]]
