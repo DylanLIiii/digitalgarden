@@ -3,9 +3,6 @@
 ---
 
 
-
-#private
-
 - **Link to** [G2Net Detecting Continuous Gravitational Waves | Kaggle](https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/overview)
 - **Tags** #机器学习 #FYP
 - **Reference** 
@@ -19,7 +16,7 @@ G2Net is a network of Gravitational Wave, Geophysics and Machine Learning scient
 ## Goals
 To find continuous gravitational wave signals. 
 
-Each data sample contains either **real or simulated noise**and possibly a simulated continuous gravitational-wave signal (CW) . The task is to identify**when a signal is present in the data (target=1).**
+Each data sample contains either **real or simulated noise**and possibly a simulated continuous gravitational-wave signal (CW) . The task is to identify **when a signal is present in the data (target=1).**
 
 
 ## Details
