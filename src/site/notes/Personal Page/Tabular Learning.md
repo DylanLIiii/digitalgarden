@@ -15,4 +15,4 @@ Overall, tabular learning is an important and widely used area of machine learni
 --- 
 ## Tabular Learning Model Collections 
 
-[[TabNet Detailed Explanation\|TabNet Detailed Explanation]]
+[[Personal Page/TabNet Detailed Explanation\|TabNet Detailed Explanation]]
