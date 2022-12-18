@@ -21,3 +21,4 @@ Recently, I focus academically on [[Personal Page/Tabular Learning\|Tabular Lear
 
 > *On this page, you'll find more about my knowledge basement, my work, and my goals for the future. Thank you for stopping by and I hope you enjoy reading about me.*
 
+
