@@ -13,6 +13,9 @@ In recent years, there has been a growing interest in deep learning techniques f
 Overall, tabular learning is an important and widely used area of machine learning, with a variety of techniques and applications. It will continue to be an active area of research and development in the coming years.
 
 --- 
-## Tabular Learning Model Collections 
+## Tabular Learning Collections 
 
-[[Personal Page/TabNet Detailed Explanation\|TabNet Detailed Explanation]]
+- [[Personal Page/TabNet Detailed Explanation\|TabNet Detailed Explanation]]
+- [[Personal Page/Transformer\|Transformer]]
+- [[Personal Page/Positional encoding\|Positional encoding]]
+- [[Personal Page/Autoencoders\|Autoencoders]] 
