@@ -4,7 +4,7 @@
 
 
 ## Introduction
-TabNet is a deep learning model that combines the strengths of both decision trees and neural networks. It was designed to address some of the limitations of traditional neural network architectures, such as the difficulty of interpreting their predictions and the need for large amounts of labeled data for training. TabNet utilizes a combination of self-attention mechanisms and decision trees to make highly interpretable predictions, and it can be trained on small datasets without requiring extensive preprocessing or feature engineering.
+TabNet is a deep learning model that combines the strengths of both decision trees and neural networks. It was designed to address some of the limitations of traditional neural network architectures, such as the difficulty of interpreting their predictions and the need for large amounts of labeled data for training. TabNet utilizes a combination of [[Personal Page/self-attention mechanism\|self-attention mechanism]] and decision trees to make highly interpretable predictions, and it can be trained on small datasets without requiring extensive preprocessing or feature engineering.
 
 In this article, we'll explore the mathematical foundations of TabNet, including its architecture, loss function, and optimization algorithms. We'll also discuss some of the key design decisions that went into the development of the model and how it compares to other state-of-the-art models in terms of performance and interpretability.
 
@@ -34,7 +34,7 @@ There were several key design decisions that went into the development of TabNet
 
 1.  Combination of neural networks and decision trees: One of the key design decisions in TabNet was the decision to combine the strengths of neural networks and decision trees. Neural networks are able to learn complex, nonlinear relationships in data, while decision trees are highly interpretable and able to handle categorical variables without requiring extensive preprocessing. By combining these two approaches, TabNet is able to achieve strong performance while also providing interpretability.
     
-2.  Self-attention mechanism: TabNet uses a self-attention mechanism in its neural network component, which allows the model to weight the importance of different input features based on their relationships with each other. This helps the model make more accurate predictions and allows it to perform well on tasks with highly correlated features.
+2.  [[Personal Page/self-attention mechanism\|self-attention mechanism]]: TabNet uses a self-attention mechanism in its neural network component, which allows the model to weight the importance of different input features based on their relationships with each other. This helps the model make more accurate predictions and allows it to perform well on tasks with highly correlated features.
     
 3.  Adam optimization: TabNet is trained using Adam, a variant of stochastic gradient descent that is particularly well-suited for deep learning models. Adam is able to adapt the learning rate on a per-parameter basis, which helps the model converge more quickly and achieve better performance.
     
