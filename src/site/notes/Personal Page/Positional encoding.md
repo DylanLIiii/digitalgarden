@@ -11,6 +11,7 @@ At a high level, positional encoding works by adding a set of learnable paramete
 One way to implement positional encoding is to use sinusoidal functions, as follows:
 
 $$\text{PE}(pos, 2i) = \sin(\frac{pos}{10000^{2i/d_\text{model}}})$$
+
 $$ \text{PE}(pos, 2i+1) = \cos(\frac{pos}{10000^{2i/d_\text{model}}}) $$
 
 where $pos$ is the position of the token in the input sequence, $i$ is the dimension of the positional encoding, and $d_\text{model}$ is the number of dimensions in the model.
@@ -73,9 +74,12 @@ Where $Q$, $K$, and $V$ are the query, key, and value matrices, respectively, an
 
 Multi-head attention is a variant of self-attention that uses multiple attention heads in parallel, allowing the model to attend to different parts of the input sequence simultaneously. Mathematically, multi-head attention can be represented as follows:
 
-$$ MultiHead(Q, K, V) = Concat(head_1, ..., head_h)W^O $$ $$ where \ head_i = Attention(QW_i^Q, KW_i^K, VW_i^V) $$
+$$ MultiHead(Q, K, V) = Concat(head_1, ..., head_h)W^O $$ 
+
+$$ where \ head_i = Attention(QW_i^Q, KW_i^K, VW_i^V) $$
 
 Where $h$ is the number of attention heads, and $W_i^Q$, $W_i^K$, $W_i^V$, and $W^O$ are learnable weight matrices.
+
 ```python
 import torch
 import torch.nn as nn
