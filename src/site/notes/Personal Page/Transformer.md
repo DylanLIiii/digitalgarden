@@ -134,3 +134,9 @@ There are several key design decisions that went into the development of Transfo
 Transformer has been shown to outperform other state-of-the-art models on a variety of natural language processing tasks, including machine translation, language modeling, and summarization. One of the key advantages of Transformer is its ability to model long-range dependencies in sequential data, thanks to its use of self-attention mechanisms. This allows it to handle tasks that require a deep understanding of the context and structure of the input data, such as machine translation.
 
 However, it's worth noting that Transformer is not always the best choice for every task. Like any machine learning model, it has its own strengths and weaknesses, and it may not perform as well on certain tasks as other models. It's always important to carefully consider the characteristics of the problem at hand and choose the most appropriate model for the task.
+
+
+--- 
+
+- [[Personal Page/Informer\|Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting]]
+- [[Personal Page/TabNet\|TabNet]]
